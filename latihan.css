@@ -1,9 +1,19 @@
 img {
-    border-radius: 75px;
+    border-radius: 0 75px 0 75px;
+    border-style: dashed;
+    border-image-width: 5px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: greenyellow;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 25px;
+    color: red;
+    margin-left: 100px;
 }
 
 body {
@@ -19,6 +29,12 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif;
     color: white;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
 }
 
 a {

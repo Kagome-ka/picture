@@ -7,8 +7,17 @@ h2 {
 }
 
 body {
-    background-color: slateblue;
-    font-family: 'Trebuchet MS';
+    margin: 0;
+    padding: 0;
+    background-image: url('programming-17.jpg');
+    background-size: cover;
+    /* Menyesuaikan ukuran gambar dengan layar */
+    background-position: center;
+    /* Pusatkan gambar */
+    background-repeat: no-repeat;
+    /* Jangan ulang gambar */
+    height: 100vh;
+    font-family: Arial, sans-serif;
     color: white;
 }
 
